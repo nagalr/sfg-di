@@ -8,9 +8,12 @@ import org.junit.jupiter.api.Test;
  * Created by ronnen on 2020-12-07.
  */
 
-
+/*
+  Mimicking here the Spring-Context behaviour
+  to create a Bean from a class on urn-time.
+  here the ctor will create the instance.
+ */
 class ConstructorInjectedControllerTest {
-
 
     ConstructorInjectedController controller;
 
