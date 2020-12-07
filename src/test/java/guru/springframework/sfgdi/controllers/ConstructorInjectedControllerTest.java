@@ -12,6 +12,8 @@ import org.junit.jupiter.api.Test;
   Mimicking here the Spring-Context behaviour
   to create a Bean from a class on urn-time.
   here the ctor will create the instance.
+  The Test class acts as 'Inversion Control'
+  Meaning, responsible for creating and serving Instances.
  */
 class ConstructorInjectedControllerTest {
 

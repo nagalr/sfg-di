@@ -9,6 +9,7 @@ import guru.springframework.sfgdi.services.GreetingService;
 
 public class ConstructorInjectedController {
 
+    // defined 'final' so it cannot change after instantiating
     private final GreetingService greetingService;
 
     public ConstructorInjectedController(GreetingService greetingService) {
