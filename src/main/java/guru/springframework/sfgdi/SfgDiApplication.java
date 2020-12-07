@@ -16,6 +16,7 @@ public class SfgDiApplication {
 		// Get the bean from the context
 		// the argument name of the bean-class
 		// should start with lower-case char ("myController")
+		// a cast needed since 'getBean' returns an Object
 		MyController myController = (MyController) ctx.getBean("myController");
 
 		String greetings = myController.sayHello();
